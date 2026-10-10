@@ -1,0 +1,28 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+
+# generated model copies (run `npm run sync` in web/ and mobile/ to create)
+web/public/models/
+mobile/assets/models/
+
+# expo / android
+.expo/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk.orig
+*.hprof
+
+# misc
+.DS_Store
+*.log
